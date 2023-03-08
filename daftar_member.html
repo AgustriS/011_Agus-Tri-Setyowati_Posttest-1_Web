@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>InterBase</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="header1">
+        <div class="logo">
+        <img src="photo/logo.png">
+      </div>
+      <h1>I N T E R B A S E | Y G E</h1>
+    </div>
+    <header>
+      <div>
+        <h3>JOIN MEMBERSHIP | YG ENTERTAIMENT</h3>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="artist.html">Artist</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="daftar_member.html">Join Membership</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="gallery">
+      <div class="gallery-container">
+        <img src="photo/trekonser.jpeg" alt="Gallery Image 1" class="gallery-item">
+        <img src="photo/bpkonser.jpeg" alt="Gallery Image 2" class="gallery-item">
+        <img src="photo/winkonser.jpeg" alt="Gallery Image 3" class="gallery-item">
+        <img src="photo/trefan.jpeg" alt="Gallery Image 4" class="gallery-item">
+        <img src="photo/bpfoto.jpeg" alt="Gallery Image 5" class="gallery-item">
+      </div>
+    </section>
+
+    <section>
+      <div class="formulir">
+        <h2>Hello YG Stan!</h2>
+        <p>1. Please complete all available fields on the registration form<br>
+           2. Make sure the data you enter is correct and valid.<br>
+          3. Don't forget to double-check the data that you filled in before sending the registration form.<br>
+          4. Please provide clear and accurate information to facilitate the registration process.<br>
+          5. By filling out the registration form properly, you can enjoy various advantages and benefits as a YG Entertainment fanbase membership.</p>
+      </div>
+    </section>
+    
+    <form action="index.html" method="post">
+      <link rel="stylesheet" type="text/css" href="style.css">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="phone">Telepon:</label>
+          <input type="tel" id="phone" name="phone" required>
+          
+          <label for="member-type">Membership:</label>
+          <select id="member-type" name="member-type" required>
+            <option value="">-- Choiche Membership --</option>
+            <option value="VIP">VIP</option>
+            <option value="Reguler">Reguler</option>
+          </select>
+          
+          <label for="quantity">Month:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="12" required>
+          
+          <label for="payment">Payment:</label>
+          <input type="radio" id="transfer" name="payment" value="credit" required>
+          <label for="payment-transfer">Transfer</label>
+          
+          <input type="radio" id="payment-credit" name="payment" value="debit" required>
+          <label for="payment-credit">Credit card</label>
+
+          <label for="file">Identity Card:</label>
+          <input type="file" id="card" name="Identity" required>
+          <div>
+            <p>Click submit if the data entered is correct!</p>
+          </div>
+          <input type="submit" value="Submit">
+        </form>
+
+        <section>
+          <div class="formulir">
+            Thank you very much for becoming a member! We truly appreciate your decision to join our community and support YG Entertainment. Your membership not only gives you access to exclusive content and merchandise, but it also helps us continue to promote and share the incredible music and culture that YG Entertainment has to offer. We are so grateful for your support and look forward to sharing many exciting experiences with you as a member. Thank you again for joining and welcome to the YG family!
+          </div>
+        </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 INTERBASE</p>
+      </div>
+    </footer>
+  </body>
+</html>
